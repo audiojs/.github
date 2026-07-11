@@ -26,8 +26,8 @@ Browser, Node, Deno, Bun, workers, edge — no ffmpeg, no upload, no native deps
 | **Codecs** | [decode](https://github.com/audiojs/decode) · [encode](https://github.com/audiojs/encode) — 14 formats |
 | **Platform** | [web-audio-api](https://github.com/audiojs/web-audio-api) · [audio-buffer](https://github.com/audiojs/audio-buffer) — W3C Web Audio outside the browser, WPT-verified |
 | **Utilities** | [audio-type](https://github.com/audiojs/audio-type) · [pcm-convert](https://github.com/audiojs/pcm-convert) · [decibels](https://github.com/audiojs/decibels) · [audio-extensions](https://github.com/audiojs/audio-extensions) |
-| **Bridges** | [wam](https://github.com/audiojs/wam) · [compile](https://github.com/audiojs/compile) (WIP) · [host](https://github.com/audiojs/host) — atoms out as plugins, native plugins in; the roadmap below |
-| **Editors** | [wavearea](https://github.com/dy/wavearea) (WIP) — waveform editor |
+| **Bridges** | [wam](https://github.com/audiojs/wam) · [compile](https://github.com/audiojs/compile) ◐ · [host](https://github.com/audiojs/host) — atoms out as plugins, native plugins in; the roadmap below |
+| **Editors** | [wavearea](https://github.com/dy/wavearea) ◐ — waveform editor |
 
 ## Atoms
 
