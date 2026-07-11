@@ -3,14 +3,11 @@
 <p align="center"><strong>Open Audio Stack</strong> — decode · process · analyse · synthesise · play.</p>
 
 <p align="center">
-  <a href="https://npmjs.org/package/audio-decode"><img src="https://img.shields.io/npm/dw/audio-decode?label=audio-decode&color=444" alt="audio-decode downloads"></a>
-  <a href="https://npmjs.org/package/audio-buffer"><img src="https://img.shields.io/npm/dw/audio-buffer?label=audio-buffer&color=444" alt="audio-buffer downloads"></a>
-  <a href="https://npmjs.org/package/audio-type"><img src="https://img.shields.io/npm/dw/audio-type?label=audio-type&color=444" alt="audio-type downloads"></a>
   <a href="https://github.com/audiojs/audio/actions/workflows/test.yml"><img src="https://github.com/audiojs/audio/actions/workflows/test.yml/badge.svg" alt="tests"></a>
   <img src="https://img.shields.io/badge/license-MIT-00a4b8" alt="MIT">
 </p>
 
-<p align="center"><a href="https://www.npmjs.com/package/audio"><img src="https://raw.githubusercontent.com/audiojs/.github/main/profile/terminal.svg" width="280" height="58" alt="npm i audio"></a></p>
+<p align="center"><a href="https://www.npmjs.com/package/audio"><img src="https://raw.githubusercontent.com/audiojs/.github/main/profile/terminal.svg" alt="npm install audio"></a></p>
 
 ```js
 import audio from 'audio'
@@ -53,14 +50,24 @@ Browser, Node, Deno, Bun, workers, edge — no ffmpeg, no upload, no native deps
 
 One contract, every target:
 
-- [x] **JS** — every runtime
-- [x] **AudioWorklet · WAM** — [wam](https://github.com/audiojs/wam) hosts any atom as a Web Audio Module
-- [ ] **WASM** — [jz](https://github.com/dy/jz) compiles the same numeric kernels, GC-free
-- [ ] **VST3 · CLAP · AU · LV2** — native plugin targets via compile
-- [ ] **Native → JS** — [host](https://github.com/audiojs/host) loads AU / VST / CLAP plugins into the JS pipeline
+1. [x] **JS** — every runtime
+2. [x] **AudioWorklet** — [wam](https://github.com/audiojs/wam) wraps any atom as a Web Audio Module
+3. [ ] **WASM** — [jz](https://github.com/dy/jz) compiles the same numeric kernels, GC-free
+4. [ ] **VST3 · CLAP · AU · LV2** — native plugin targets via compile
+5. [ ] **Native → JS** — [host](https://github.com/audiojs/host) loads AU / VST / CLAP plugins into the JS pipeline
 
 ## Sponsor
 
-Run `npm fund` — if `audio-*` or `@audio/*` turns up, your product already ships on this stack: audio-decode, audio-buffer and audio-type alone see 2M+ installs a week, parsing untrusted audio in production. Sponsorship buys maintenance — security response on the decode surface, compat with every new runtime release, verification kept current against the specs — and everything stays MIT forever. Upstream is cheaper than a fork.
+Run `npm fund` — this stack is probably already in your tree: 2M+ installs a week, parsing untrusted audio in production.
+
+<p align="center">
+  <a href="https://npmjs.org/package/audio-decode"><img src="https://img.shields.io/npm/dw/audio-decode?label=audio-decode&color=444" alt="audio-decode downloads"></a>
+  <a href="https://npmjs.org/package/audio-buffer"><img src="https://img.shields.io/npm/dw/audio-buffer?label=audio-buffer&color=444" alt="audio-buffer downloads"></a>
+  <a href="https://npmjs.org/package/audio-type"><img src="https://img.shields.io/npm/dw/audio-type?label=audio-type&color=444" alt="audio-type downloads"></a>
+</p>
+
+Sponsorship buys what a dependency needs: security response, new-runtime compat, verification kept current against the specs. Upstream is cheaper than a fork.
 
 **[github.com/sponsors/audiojs →](https://github.com/sponsors/audiojs)**
+
+*MIT keeps it free. Sponsors keep it alive.*
