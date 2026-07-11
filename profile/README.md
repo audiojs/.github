@@ -1,4 +1,3 @@
-<h2 align="center">Open Audio Stack</h2>
 
 | Layer | Packages | Verified |
 |---|---|---|
@@ -17,7 +16,7 @@
 | **Targets** | [wam](https://github.com/audiojs/wam) · ◐ [jz](https://github.com/dy/jz) · ◐ [compile](https://github.com/audiojs/compile) · ◐ [host](https://github.com/audiojs/host) | |
 | **Editors** | ◐ [wavearea](https://github.com/dy/wavearea) | |
 
-<sub>◐ work in progress</sub>
+<!-- <sub>◐ work in progress</sub> -->
 
 <p align="center">
   <a href="https://npmjs.org/package/audio-decode"><img src="https://img.shields.io/npm/dw/audio-decode?label=audio-decode&color=444" alt="audio-decode downloads"></a>
@@ -25,7 +24,7 @@
   <a href="https://npmjs.org/package/audio-type"><img src="https://img.shields.io/npm/dw/audio-type?label=audio-type&color=444" alt="audio-type downloads"></a>
 </p>
 
-<p align="center"><img src="https://img.shields.io/badge/license-MIT-00a4b8" alt="MIT"> &nbsp; ॐ</p>
+<p align="center">MIT &nbsp; ॐ</p>
 
 <!-- ───────────────────────────────────────────────────────────────
 ## Sponsor
