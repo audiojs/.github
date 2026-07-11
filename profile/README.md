@@ -23,9 +23,11 @@ Browser, Node, Deno, Bun, workers, edge — no ffmpeg, no upload, no native deps
 |---|---|
 | **Engine** | [audio](https://github.com/audiojs/audio) — one import: batch · streaming · AudioWorklet · CLI |
 | **Atoms** | 280+ algorithms in 35 families — the catalog below |
+| **Codecs** | [decode](https://github.com/audiojs/decode) · [encode](https://github.com/audiojs/encode) — 14 formats |
 | **Platform** | [web-audio-api](https://github.com/audiojs/web-audio-api) · [audio-buffer](https://github.com/audiojs/audio-buffer) — W3C Web Audio outside the browser, WPT-verified |
 | **Utilities** | [audio-type](https://github.com/audiojs/audio-type) · [pcm-convert](https://github.com/audiojs/pcm-convert) · [decibels](https://github.com/audiojs/decibels) · [audio-extensions](https://github.com/audiojs/audio-extensions) |
-| **Bridges** | [wam](https://github.com/audiojs/wam) · compile · [host](https://github.com/audiojs/host) — atoms out as plugins, native plugins in; the roadmap below |
+| **Bridges** | [wam](https://github.com/audiojs/wam) · [compile](https://github.com/audiojs/compile) (WIP) · [host](https://github.com/audiojs/host) — atoms out as plugins, native plugins in; the roadmap below |
+| **Editors** | [wavearea](https://github.com/dy/wavearea) (WIP) — waveform editor |
 
 ## Atoms
 
@@ -57,8 +59,8 @@ One contract, every target:
 
 1. [x] **JS** — every runtime
 2. [x] **AudioWorklet** — [wam](https://github.com/audiojs/wam) wraps any atom as a Web Audio Module
-3. [ ] **WASM** — [jz](https://github.com/dy/jz) compiles the same numeric kernels, GC-free
-4. [ ] **VST3 · CLAP · AU · LV2** — native plugin targets via compile
+3. [ ] **WASM · native** — [jz](https://github.com/dy/jz) compiles the same numeric kernels to GC-free WASM or native code
+4. [ ] **VST3 · CLAP · AU · LV2** — plugin targets via [compile](https://github.com/audiojs/compile)
 5. [ ] **Native → JS** — [host](https://github.com/audiojs/host) loads AU / VST / CLAP plugins into the JS pipeline
 
 ## Sponsor
