@@ -25,7 +25,7 @@
   <a href="https://npmjs.org/package/audio-type"><img src="https://img.shields.io/npm/dw/audio-type?label=audio-type&color=444" alt="audio-type downloads"></a>
 </p> -->
 
-<p align="center">MIT &nbsp; ॐ</p>
+<!-- <p align="center">MIT &nbsp; ॐ</p> -->
 
 <!-- ───────────────────────────────────────────────────────────────
 ## Sponsor
