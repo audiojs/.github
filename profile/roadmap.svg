@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="124" viewBox="0 0 830 124" role="img" aria-label="Compilation stages: JS, then AudioWorklet and WAM today, then WASM via jz, then VST3 CLAP AU LV2 via compile; host brings native plugins the other way, into JS">
+  <title>One contract, every target — JS → AudioWorklet/WAM → WASM → VST3·CLAP·AU·LV2; host brings native plugins into JS</title>
+  <style>
+    text {
+      font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+    }
+    .lbl { font-size: 9px; letter-spacing: 1.3px; fill: #5a6370; }
+    .leg { font-size: 9px; fill: #6a6f78; }
+    .name { font-size: 12.5px; font-weight: 600; fill: #e8e8ea; }
+    .sub { font-size: 9.5px; fill: #6a6f78; }
+    .ret-lbl { font-size: 9.5px; fill: #6a6f78; }
+    @media (prefers-reduced-motion: reduce) { .pulse { display: none; } }
+  </style>
+  <defs>
+    <marker id="ah" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#4a5361"/>
+    </marker>
+    <marker id="ahd" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#3d4552"/>
+    </marker>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="829" height="123" fill="#0d1014" stroke="#262b33"/>
+
+  <text class="lbl" x="20" y="25">ONE CONTRACT · EVERY TARGET</text>
+
+  <circle cx="634" cy="21.5" r="3" fill="#2d8a4e"/>
+  <text class="leg" x="642" y="25">shipped</text>
+  <circle cx="693" cy="21.5" r="3" fill="#c9a227"/>
+  <text class="leg" x="701" y="25">in flight</text>
+  <circle cx="764" cy="21.5" r="3" fill="none" stroke="#5a6370"/>
+  <text class="leg" x="772" y="25">planned</text>
+
+  <circle class="pulse" r="2.5" fill="#00a4b8">
+    <animateMotion path="M150,63 L608,63" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <line x1="150" y1="63" x2="182" y2="63" stroke="#4a5361" stroke-width="1.2" marker-end="url(#ah)"/>
+  <line x1="386" y1="63" x2="418" y2="63" stroke="#4a5361" stroke-width="1.2" marker-end="url(#ah)"/>
+  <line x1="572" y1="63" x2="604" y2="63" stroke="#4a5361" stroke-width="1.2" marker-end="url(#ah)"/>
+
+  <g>
+    <rect x="20" y="40" width="130" height="46" fill="#12161c" stroke="#2a303a"/>
+    <circle cx="36" cy="54.5" r="3.5" fill="#2d8a4e"/>
+    <text class="name" x="48" y="59">JS</text>
+    <text class="sub" x="48" y="75">every runtime</text>
+  </g>
+  <g>
+    <rect x="186" y="40" width="200" height="46" fill="#12161c" stroke="#2a303a"/>
+    <circle cx="202" cy="54.5" r="3.5" fill="#2d8a4e"/>
+    <text class="name" x="214" y="59">AudioWorklet · WAM</text>
+    <text class="sub" x="214" y="75">wam — today</text>
+  </g>
+  <g>
+    <rect x="422" y="40" width="150" height="46" fill="#12161c" stroke="#2a303a"/>
+    <circle cx="438" cy="54.5" r="3.5" fill="#c9a227"/>
+    <text class="name" x="450" y="59">WASM</text>
+    <text class="sub" x="450" y="75">jz — GC-free</text>
+  </g>
+  <g>
+    <rect x="608" y="40" width="202" height="46" fill="#12161c" stroke="#2a303a"/>
+    <circle cx="624" cy="54.5" r="3.5" fill="none" stroke="#5a6370"/>
+    <text class="name" x="636" y="59">VST3 · CLAP · AU · LV2</text>
+    <text class="sub" x="636" y="75">compile</text>
+  </g>
+
+  <path d="M709,86 L709,106 L85,106 L85,88" fill="none" stroke="#3d4552" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#ahd)"/>
+  <rect x="302" y="99" width="190" height="14" fill="#0d1014"/>
+  <text class="ret-lbl" x="397" y="110" text-anchor="middle">host — native plugins into JS</text>
+</svg>
