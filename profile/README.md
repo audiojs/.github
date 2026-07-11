@@ -2,11 +2,6 @@
 
 <p align="center"><strong>Open Audio Stack</strong> — decode · process · analyse · synthesise · play.</p>
 
-<p align="center">
-  <a href="https://github.com/audiojs/audio/actions/workflows/test.yml"><img src="https://github.com/audiojs/audio/actions/workflows/test.yml/badge.svg" alt="tests"></a>
-  <img src="https://img.shields.io/badge/license-MIT-00a4b8" alt="MIT">
-</p>
-
 <p align="center"><a href="https://www.npmjs.com/package/audio"><img src="https://raw.githubusercontent.com/audiojs/.github/main/profile/terminal.svg" alt="npm install audio"></a></p>
 
 ```js
@@ -70,4 +65,5 @@ Sponsorship buys what a dependency needs: security response, new-runtime compat,
 
 **[github.com/sponsors/audiojs →](https://github.com/sponsors/audiojs)**
 
-*MIT keeps it free. Sponsors keep it alive.*
+<p align="center"><em>MIT keeps it free. Sponsors keep it alive.</em></p>
+<p align="center"><img src="https://img.shields.io/badge/license-MIT-00a4b8" alt="MIT"></p>
