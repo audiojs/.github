@@ -17,6 +17,17 @@ audio raw.wav trim -30db normalize podcast fade 0.3s -0.5s save clean.mp3   # sa
 
 Browser, Node, Deno, Bun, workers, edge — no ffmpeg, no upload, no native deps.
 
+## Stack
+
+| Layer | Packages |
+|---|---|
+| **Engine** | [audio](https://github.com/audiojs/audio) — one import: batch · streaming · AudioWorklet · CLI |
+| **Atoms** | 280+ algorithms in 35 families — the catalog below |
+| **Platform** | [web-audio-api](https://github.com/audiojs/web-audio-api) · [audio-buffer](https://github.com/audiojs/audio-buffer) — W3C implementations for runtimes without them, verified by WPT |
+| **Utilities** | [audio-type](https://github.com/audiojs/audio-type) · [pcm-convert](https://github.com/audiojs/pcm-convert) · [decibels](https://github.com/audiojs/decibels) · [audio-extensions](https://github.com/audiojs/audio-extensions) |
+| **Bridges** | [wam](https://github.com/audiojs/wam) · [jz](https://github.com/dy/jz) · [host](https://github.com/audiojs/host) — atoms beyond JS, the roadmap below |
+| **Editor** | [wavearea](https://github.com/dy/wavearea) — waveform editing component |
+
 ## Atoms
 
 | Domain | Families |
