@@ -1,14 +1,3 @@
-<p align="center"><a href="https://www.npmjs.com/package/audio"><img src="https://raw.githubusercontent.com/audiojs/.github/main/profile/terminal.svg" alt="npm install audio"></a></p>
-
-```js
-import audio from 'audio'
-
-audio('raw.wav').trim(-30).normalize('podcast').fade(0.3, 0.5).save('clean.mp3')
-let [lufs, bpm] = await audio('track.flac').stat(['loudness', 'bpm'])
-```
-
-Browser, Node, Deno, Bun, workers, edge — no ffmpeg, no upload, no native deps. Same engine as a CLI.
-
 ## Stack
 
 | Layer | Packages |
@@ -25,12 +14,10 @@ Browser, Node, Deno, Bun, workers, edge — no ffmpeg, no upload, no native deps
 | **I/O** | [mic](https://github.com/audiojs/mic) · [speaker](https://github.com/audiojs/speaker) |
 | **Platform** | [web-audio-api](https://github.com/audiojs/web-audio-api) · [audio-buffer](https://github.com/audiojs/audio-buffer) |
 | **Utilities** | [audio-type](https://github.com/audiojs/audio-type) · [pcm-convert](https://github.com/audiojs/pcm-convert) · [decibels](https://github.com/audiojs/decibels) · [audio-extensions](https://github.com/audiojs/audio-extensions) |
-| **Targets** | [wam](https://github.com/audiojs/wam) → ◐ [jz](https://github.com/dy/jz) → ◐ [compile](https://github.com/audiojs/compile) · ◐ [host](https://github.com/audiojs/host) |
+| **Targets** | [wam](https://github.com/audiojs/wam) · ◐ [jz](https://github.com/dy/jz) · ◐ [compile](https://github.com/audiojs/compile) · ◐ [host](https://github.com/audiojs/host) |
 | **Editors** | ◐ [wavearea](https://github.com/dy/wavearea) |
 
 <sub>◐ work in progress</sub>
-
-## Verified
 
 <p>
   <img src="https://img.shields.io/badge/loudness-EBU%20R128%20%2F%20BS.1770-444" alt="loudness verified against EBU R128 / ITU-R BS.1770 test vectors">
