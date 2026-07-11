@@ -1,3 +1,4 @@
+## Stack
 
 | Layer | Packages | Verified |
 |---|---|---|
@@ -18,11 +19,11 @@
 
 <!-- <sub>◐ work in progress</sub> -->
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://npmjs.org/package/audio-decode"><img src="https://img.shields.io/npm/dw/audio-decode?label=audio-decode&color=444" alt="audio-decode downloads"></a>
   <a href="https://npmjs.org/package/audio-buffer"><img src="https://img.shields.io/npm/dw/audio-buffer?label=audio-buffer&color=444" alt="audio-buffer downloads"></a>
   <a href="https://npmjs.org/package/audio-type"><img src="https://img.shields.io/npm/dw/audio-type?label=audio-type&color=444" alt="audio-type downloads"></a>
-</p>
+</p> -->
 
 <p align="center">MIT &nbsp; ॐ</p>
 
