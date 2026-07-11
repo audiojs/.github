@@ -1,7 +1,3 @@
-<h1 align="center">audiojs</h1>
-
-<p align="center"><strong>Open Audio Stack</strong> — decode · process · analyse · synthesise · play.</p>
-
 <p align="center"><a href="https://www.npmjs.com/package/audio"><img src="https://raw.githubusercontent.com/audiojs/.github/main/profile/terminal.svg" alt="npm install audio"></a></p>
 
 ```js
@@ -11,11 +7,7 @@ audio('raw.wav').trim(-30).normalize('podcast').fade(0.3, 0.5).save('clean.mp3')
 let [lufs, bpm] = await audio('track.flac').stat(['loudness', 'bpm'])
 ```
 
-```sh
-audio raw.wav trim -30db normalize podcast fade 0.3s -0.5s save clean.mp3   # same engine, CLI
-```
-
-Browser, Node, Deno, Bun, workers, edge — no ffmpeg, no upload, no native deps.
+Browser, Node, Deno, Bun, workers, edge — no ffmpeg, no upload, no native deps. Same engine as a CLI.
 
 ## Stack
 
