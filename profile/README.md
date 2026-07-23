@@ -15,4 +15,4 @@ Playback, editing, analysis, synthesis — modular, spec-verified DSP.
 - **Targets** &nbsp;[wam](https://github.com/audiojs/wam) · ◐ [jz](https://github.com/dy/jz) · ◐ [compile](https://github.com/audiojs/compile) · ◐ [host](https://github.com/audiojs/host)
 - **Editors** &nbsp;◐ [wavearea](https://github.com/dy/wavearea)
 
-<sub><a href="https://audiojs.org">audiojs.org</a> · <a href="https://www.npmjs.com/org/audio">npm</a> · <a href="https://github.com/sponsors/dy">sponsor</a> · MIT ॐ</sub>
+<sub><a href="https://audiojs.dev">audiojs.dev</a> · <a href="https://www.npmjs.com/org/audio">npm</a> · <a href="https://github.com/sponsors/dy">sponsor</a> · MIT ॐ</sub>
